@@ -7,13 +7,13 @@ dotenv.config();
 
 const app = express();
 
-// Middlewares
+
 app.use(cors());
 app.use(express.json());
 
 // Default Route
 app.get("/", (req, res) => {
-  res.send("Sweet Shop API is running...");
+  res.send("Sweet Shop  is running...");
 });
 
 // Connect to Database
